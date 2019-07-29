@@ -235,6 +235,9 @@ button{
 
 }
 @media screen and (max-width: 992px) {
+    .carrousel{
+        height: 400px;
+    }
     .header__ul{
         font-size: medium;
     }
@@ -310,5 +313,88 @@ button{
     }
 }
 @media screen and (max-width: 768px) {
-    
+    .carrousel{
+        height: 300px;
+    }
+    .header__ul{
+        display:block;
+    }
+    .header__ul > li{
+        display: block;
+    }
+    .carrousel__slides__lg > img {
+        height: 214px;
+        width: 560px;
+    }
+    .carrousel__next{
+        display: inline-flex;
+        background-image: url("assets/2.png");
+        width: 45px;
+        height: 45px;
+        background-position: -45px 0;
+        transform: translate(1140%, -500%);
+    }
+    .carrousel__radio-button{
+        display: inline-flex;
+        transform: translate(150%, -250%);;
+        width: 150px;
+    }
+    .carrousel__previous{
+        display: block;
+        background-image: url("assets/2.png");
+        width: 45px;
+        height: 45px;
+        transform: translate(0%, -325%);
+    }
+    .mid-section{
+        display: block;
+    }
+    .mid-section__part{
+        width: 100%;
+    }
+    .destinations__country.algeria{
+        display: none;
+    }
+    .destinations__country.brazil{
+        display: none;
+    }
+    .bottom__info{
+        display: block;
+    }
+    .bottom{
+        display: block;
+    }
+    .bottom__about-us, .bottom__why-us {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .carrousel{
+        height: 200px;
+    }
+    .carrousel__slides__lg > img {
+        height: 133px;
+        width: 350px;
+    }
+    .carrousel__next{
+        display: inline-flex;
+        background-image: url("assets/2.png");
+        width: 45px;
+        height: 45px;
+        background-position: -45px 0;
+        transform: translate(675%, -395%);
+    }
+    .carrousel__radio-button{
+        display: inline-flex;
+        transform: translate(75%, -292%);
+        width: 150px;
+    }
+    .carrousel__previous{
+        display: block;
+        background-image: url("assets/2.png");
+        width: 45px;
+        height: 45px;
+        transform: translate(0%, -223%);
+    }
 }
